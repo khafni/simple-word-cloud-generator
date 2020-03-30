@@ -3,8 +3,10 @@ this small python script generate a word cloud from a text and output it as a pn
 
 
 HOW TO USE:
-    first do a sudo pip install wordcloud to get the wordcloud module
-    python main.py [text that you want to use in your wordcloud] [text of words to not include in your wordcloud]
+
+    1)sudo pip install wordcloud to get the wordcloud module
+    
+    2)python main.py [text that you want to use in your wordcloud] [text of words to not include in your wordcloud]
 
     Example:
-	python main.py 
+	python main.py text.txt words_not_to_include.txt
