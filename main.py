@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from wordcloud import WordCloud
 import sys
 
